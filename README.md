@@ -22,7 +22,8 @@ Building the library
 
 libglvnd build-depends on libx11, glproto and libxext.
 On Debian and derivatives, run:
-
+    Optional:
+        sudo apt-get install autoconf libtool  
     sudo apt-get install libxext-dev libx11-dev x11proto-gl-dev
 
 Run `./autogen.sh`, then run `./configure` and `make`.
